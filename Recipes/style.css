@@ -10,22 +10,50 @@ h3 {
 html {
     background-color: rgb(233, 216, 191);
 }
-ul {
-    width: fit-content;
-    height: 165px;
-    align-content: space-evenly;
+.List ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: auto;
+    padding-right: auto;
+    border: 2px  solid rgb(138, 158, 218) ;
 }
 .Steps {
     color:rgb(8, 13, 87);
-    text-align: center;
+    
     position: relative;
     display: block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: auto;
+    border: 2px  solid rgb(138, 158, 218) ;
 }
  h4 {
     color: rgb(143, 7, 7);
  }
  .container img {
-    display: block; /* Ensure the image behaves like a block element */
-    margin: 0 auto; /* Center the image horizontally */
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    border: 3px rgb(54, 9, 9);
 }
+
+.try {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: auto;
+    border: 2px  solid rgb(138, 158, 218) ;
+}
+.Align {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 216, 191);
+    font-size: 25px;
+    font-family: monospace;
+}
+
+
